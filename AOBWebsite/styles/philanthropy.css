@@ -1,0 +1,159 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+
+html {
+	background-color: white;
+	 font-family: Iowan Old Style;
+	}
+
+body {
+	height: 100%;
+	width: 100%;
+	}
+
+#sheild {
+	vertical-align: middle;
+	width: 8%;
+	}
+
+#nav_submenu {
+	display: block;
+	float: right;
+	margin-top: 5%;
+	width: 35%;
+	}
+
+#nav_submenu ul {
+    list-style-type: none;
+	}
+
+#nav_submenu li a {
+    display: block;
+    text-decoration: none;
+    font-size: 170%;
+  	border: 3px solid white;
+  	padding-top: 10%;
+	padding-bottom: 10%;
+	padding-left: 3%;
+	}
+
+#navbar {
+	background-color: #f1f1f1;
+	}
+
+#navbar a {
+	color: black;
+	}
+
+.navbar {
+	margin-left: 17%;
+	}
+
+.navtop {
+	background-color: #f1f1f1;
+	}
+
+.navtop a {
+	color: black;
+	}
+
+#active {
+    background-color: rgba(141, 220, 163, 0.35);
+	}
+
+#active a {
+	color: green;
+	}
+
+#nav_submenu li a:hover {
+    background-color: rgba(141, 220, 163, 0.35); 
+	}
+
+body {
+	background-image: url("../images/philanthropyback.png");
+	background-size: 58%;
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-attachment: scroll;
+	position: absolute;
+	float: none;
+	}
+
+main {
+	margin-top: 58%;
+	padding-bottom: 10%;
+	background-color: #f1f1f1;
+	border-bottom: 2px solid black;
+	}
+
+#phil {
+	background-color: rgba(141, 220, 163, 0.35);
+	font-size: 280%;
+	margin-bottom: 3%;
+	padding: 4%;
+	text-align: center;
+	clear: both;
+	color: black;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	}
+
+#MAWF {
+	float: none;
+	font-size: 220%;
+	padding-top: 1%;
+	padding-bottom: 4%;
+	padding-left: 3%;
+	vertical-align: middle;
+	}
+ 
+#SC {
+	float: none;
+	font-size: 220%;
+	padding-left: 3%;
+	vertical-align: middle;
+	clear:left;
+	}
+
+figcaption {
+	float: right;
+	color: gray;
+	padding-top: 1%;
+	font-size: 130%;
+	font-style: italic;
+	clear: both;	
+	}
+
+#polar {
+	width: 50%;
+	height: auto;
+	margin-left: 2%;
+	float: right;
+	border: 2px solid rgba(141, 220, 163, 0.35);
+	}
+  
+footer {
+	color: gray;
+	text-align: center;
+	padding: 2%;
+	background-color: white;
+	}
+	
+/* samsung s5/iphone portrait (375px or less)*/
+@media only screen and (max-width: 375px) {
+/*styles */
+	#nav_submenu {display: none; }	
+	main, footer { 
+	font-size: 40%;}
+	body {
+	background-size: 100%;
+	}
+	main {
+	margin-top: 90%;
+	}
+	.AOB {
+		margin-left: 22%;
+		}
+}

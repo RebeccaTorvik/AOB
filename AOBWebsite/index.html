@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Alpha Theta Beta Sorority</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Alpha Theta Beta Sorority. Oldest Fraternal Organization at Hofstra University.">
+		<meta name="keywords" content="Alpha Theta Beta, Sorority, Hofstra University, AOB, Alumnae">
+		<link rel="stylesheet" href="styles/normalize.css">
+		<link rel="stylesheet" href="styles/topmenu.css">
+		<link rel="stylesheet" href="styles/main.css">
+		<link rel="stylesheet" href="styles/slicknav.css">
+		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    	<script src="js/jquery.slicknav.min.js"></script>
+		<script type="text/javascript">
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	});
+    	</script>
+    	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+
+<body>
+	<header>
+		<div class="social">
+			<li><a href="#" class="login">Login</a></li>
+			<li><a href="https://www.pinterest.com/alphathetabetahu/?eq=alphathetabetahu&etslf=79475" class="fa fa-pinterest" target="_blank"></a></li>
+			<li><a href="https://twitter.com/alphathetabetas?lang=en" class="fa fa-twitter" target="_blank"></a></li>
+			<li><a href="https://www.instagram.com/alphathetabetahu/" class="fa fa-instagram" target="_blank"></a></li>
+			<li><a href="https://www.facebook.com/alphathetabetasorority/" class="fa fa-facebook" target="_blank"></a></li>
+		</div>
+		<nav id="mobile_menu"></nav>
+		<div id="myNav" class="overlay">
+  			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  			<div class="overlay-content">
+				<ul>
+					<li class="home"><a href="index.html">Home</a></li>
+					<li class="about"><a href="pages/about.html">About Us</a></li>
+					<li class="collegians"><a href="pages/collegians.html">Collegians</a></li>
+					<li class="alumnae"><a href="http://www.alphathetabeta.org/" target="_blank">Alumnae</a></li>
+					<li class="recruitment"><a href="pages/recruitment.html">Recruitment</a></li>
+					<li class="store"><a href="http://www.alphathetabetaapparel.com" target="_blank">Store</a></li>
+					<li class="contact"><a href="pages/contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>	
+		<span class="title" style="font-size:35px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+			<script>
+				function openNav() {
+   				 document.getElementById("myNav").style.width = "100%";
+					}
+
+				function closeNav() {
+    			document.getElementById("myNav").style.width = "0%";
+					}
+			</script>
+ 		<a class="AOB" href="index.html">Alpha Theta Beta</a>
+    	</header>
+	<main>
+		<video autoplay muted loop id="video">
+ 	 		<source src="images/video.mp4" type="video/mp4">
+		</video>
+		<p>Sisterhood, Sincerity, Cooperation</p>
+		<h1> Alpha Theta Beta was founded on November 17, 1936 </h1>
+		<h2> We are Hofstra's oldest fraternal organization </h2>
+	</main>
+	<footer>
+		<p id="copyright"> &copy;2018 Alpha Theta Beta Sorority
+		</p>
+	</footer>
+</body>
+</html>

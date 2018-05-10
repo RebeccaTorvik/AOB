@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+	
+html {
+	background-color: white;
+	font-family: Iowan Old Style;
+	}
+
+body {
+	height: 100%;
+	width: 100%;
+	}
+
+#sheild {
+	vertical-align: middle;
+	width: 15%;
+	}
+
+.aboutpage {
+	margin-top: 7.9%;
+	margin-left: 70%;
+	padding: 2% 3% 2% 2%;
+	background-color: rgba(244, 254, 246, 0.66);
+	float: right;
+	font-size: 270%;
+	color: green;
+	clear: both;
+	}
+
+.contactform {
+	margin-top: 2%;
+	padding: 3%;
+	font-size: 150%;
+	}
+	
+footer {
+	color: gray;
+	text-align: center;
+	padding: 2%;
+	background-color: white;
+	}
+
+/* samsung s5/iphone portrait (375px or less)*/
+@media only screen and (max-width: 375px) {
+/*styles */
+	#nav_menu {display: none; }
+	#mobile_menu {display: block; }	
+	body {
+		width: 100%;
+		margin: 0;
+		border: none;
+		}
+	.aboutpage {
+		font-size: 10px;
+		}
+	.AOB {
+		margin-left: 22%;
+		}
+    main, footer {
+    	margin-top: 15%;
+    	font-size: 50%;
+    }
+}

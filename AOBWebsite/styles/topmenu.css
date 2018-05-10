@@ -1,0 +1,167 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+
+header {
+   background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+  	position: fixed;
+  	top: 0;
+  	clear: both;
+    }
+    
+.AOB {
+	color: white;
+  	 font-size: 170%;
+  	 text-decoration: none;
+  	 margin-left: 29%;
+  	 padding: 1%;
+  	 }
+  	 
+.title {
+	padding: 1%;
+	margin-top: 3.2%;
+	margin-bottom: 3.2%;
+	}
+    
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+	}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+    top: 15%; /* 25% from the top */
+    width: auto; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+	}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: white;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+	}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: gray;
+	}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+	}
+
+.title:hover, .title:focus {
+	color: green;
+	}
+	
+.AOB:hover, .AOB:focus {
+	color: green;
+	}
+
+.social {
+	display: block;
+	}
+
+.social li {
+    list-style-type: none;
+	}
+
+.social li a {
+    display: block;
+    text-decoration: none;
+	}
+
+.fa {
+    padding: .5%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    float: right;
+    margin-top: .6%;
+    margin-right: .3%;
+	}
+
+/* hover effect */
+.fa:hover {
+    color: green;
+	}
+
+/* Facebook */
+.fa-facebook {
+    color: white;
+	}
+
+/* Twitter */
+.fa-twitter {
+    color: white;
+    }
+    
+.fa-instagram {
+    color: white;
+	}	
+
+.fa-pinterest {
+    color: white;
+    }
+
+.login {
+	color: white;
+	background-color: black;
+    font-size: 90%;
+    text-align: center;
+    text-decoration: none;
+    padding: 1%;
+    float: right;
+	}
+
+.login:hover  {
+    color: green;
+	}    
+	
+/* samsung s5/iphone portrait (375px or less)*/
+@media only screen and (max-width: 375px) {
+/*styles */
+	#nav_menu {display: none; }
+	#mobile_menu {display: block; 
+		}
+	header {
+		max-width: 375px;
+		}
+	body {
+		width: 100%;
+		margin: 0;
+		border: none;
+		}	
+	.AOB {
+		margin-left: 22%;
+		}
+	.overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 10px;
+        top: 15px;
+        right: 35px;
+        width: 56%;
+    }
+}

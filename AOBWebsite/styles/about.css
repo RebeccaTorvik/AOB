@@ -1,0 +1,194 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: white;
+	font-family: Iowan Old Style;
+	}
+	
+body {
+	height: 100%;
+	width: 100%;
+	}
+	
+.aboutpage {
+	margin-top: 42%;
+	margin-left: 70%;
+	padding: 2% 3% 2% 2%;
+	background-color: rgba(244, 254, 246, 0.66);
+	float: right;
+	font-size: 270%;
+	color: green;
+	clear: both;
+	}
+	
+#sheild {
+	vertical-align: middle;
+	width: 15%;
+	}
+
+body {
+	background-image: url("../images/Motto1.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: scroll;
+	position: absolute;
+	}
+
+main {
+	margin-top: 62%;
+	}
+
+#founders {
+	width: 50%;
+	float: left;
+	}
+
+aside {
+	padding: 3% 2% 12% 53%;
+	font-size: 170%;
+	float: none;
+	}
+
+.history {
+	background-color: #f1f1f1;
+	padding-bottom: 32%;
+	color: black;
+	clear: both;
+	}
+
+.motto {
+	font-size: 250%;
+	clear: both;
+	padding: 4%;
+	text-align: center;
+	clear: both;
+	}
+	
+.history_list {
+	font-size: 200%;
+	}
+
+.name1 {
+	float: left;
+	width: 33%;
+	text-align: center;
+	margin-top: 4%;
+	}
+	 
+#SBC_pic {
+	max-width: 32.4%;
+	height: auto;
+	float: left;
+	border: 3px solid black;
+	}
+	
+.name2 {
+	float: right;
+	width: 33%;
+	text-align: center;
+	margin-top: 4%;
+	 }
+
+.philanthropy {
+	margin-top: 4%;
+	}	
+
+.phil {
+	padding-top: 2%;
+	padding-bottom: 1%;
+	text-align: center;
+	}
+
+#phil_name  {
+	color: black;
+	font-size: 250%;
+	clear: both;
+	}	
+	
+.SC_MAWF {
+	color: black;
+	font-size: 250%;
+	padding-bottom: .5%;
+	padding-top: 2%;
+	}
+	
+#MAWF_name {
+	float: none;
+	padding-left: 8%;
+	}
+
+#SC_name {
+	float: right;
+	padding-right: 9%;
+	}
+
+address {
+	padding-bottom: .5%;
+	clear: both;
+	}
+	
+#click_SC:hover, .click a:focus {
+    color: green;
+    }
+    
+#click_MAWF:hover, .click a:focus {
+    color: green;
+    }
+
+#click_SC {
+	float: right;
+	padding-right: 18%;
+	font-size: 150%;
+	color: gray;
+		text-decoration: none;
+	}
+
+#click_MAWF {
+	float: none;
+	padding-left: 18%;
+	font-size: 150%;
+	color: gray;
+		text-decoration: none;
+	}
+
+#MAWF_pic {
+	float: none;
+	}
+	
+#SC_pic {
+	float: right;
+	}
+
+#MAWF_pic, #SC_pic {
+	height: 100%;
+	width: 49.8%;
+	} 
+  
+footer {
+	color: gray;
+	text-align: center;
+	padding: 2%;
+	background-color: white;
+	}
+/* samsung s5/iphone portrait (375px or less)*/
+@media only screen and (max-width: 375px) {
+	#nav_menu {display: none; }
+	#mobile_menu {display: block; }	
+	body {
+		width: 100%;
+		margin: 0;
+		border: none;
+		}
+	.aboutpage {
+		font-size: 40%;
+		}
+	main, footer {
+		font-size: 30%;
+		}
+		.AOB {
+		margin-left: 22%;
+		}
+	}

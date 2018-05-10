@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: white;
+	font-family: Iowan Old Style;
+	}
+
+body {
+	height: 100%;
+	width: 100%;
+	}
+	
+#video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+	}
+	
+/*styles for main*/
+main p {
+		padding-top: 35%;
+		color: white;
+		font-size: 370%;
+		font-family: Garden Grown;
+		text-align: center;
+		}
+		
+	main h1, h2 {
+		color: black;
+		font-size: 220%;
+		font-weight: bold;
+		text-align: center;
+		}
+	
+	main h1 {
+		padding-top: 25%;
+		}
+	
+	main h2 {
+		padding-bottom: 10%;
+		}
+
+footer {
+	color: gray;
+	text-align: center;
+	padding: 2%;
+	background-color: white;
+	}
+	
+	
+#mobile_menu { 
+	display: none; 
+	}
+	
+#nav_menu {
+	display: block;
+	}
+
+
+/* samsung s5/iphone portrait (375px or less)*/
+@media only screen and (max-width: 375px) {
+/*styles */
+	#nav_menu {display: none; }
+	#mobile_menu {display: block; }	
+	body {
+		width: 100%;
+		margin: 0;
+		border: none;
+		}
+	header {
+		height: 12%;
+		width: 100%;
+		}
+	.AOB {
+		margin-left: 22%;
+		}
+	#video {
+		width: 100%;
+		}	
+    main p {
+		font-size: 300%;
+		color: black;
+		margin-top: 5%;
+		}
+
+	main h1, h2{
+		font-size: 120%;
+		padding-left: 1%;
+		padding-right: 1%;
+		}
+	main h1 {
+		padding-top: 80%;
+		}
+}

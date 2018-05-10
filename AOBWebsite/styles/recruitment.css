@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+
+html {
+	background-color: white;
+	font-family: Iowan Old Style;
+	}
+
+body {
+	height: 100%;
+	width: 100%;
+	}
+	
+#sheild {
+	vertical-align: middle;
+	width: 15%;
+	}
+
+.aboutpage {
+	margin-top: 42%;
+	margin-left: 70%;
+	padding: 2% 3% 2% 2%;
+	background-color: rgba(244, 254, 246, 0.66);
+	float: right;
+	font-size: 270%;
+	color: green;
+	clear: both;
+	}
+
+body {
+	background-image: url("../images/recruite.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: scroll;
+	position: absolute;
+	}
+
+main {
+	margin-top: 58%;
+	margin-bottom: 2%;
+	}
+	
+h1 {
+	font-size: 250%;
+	}
+
+#PNM_description {
+	font-size: 200%;
+	}
+
+.PNM_info, .eligibility, .dates {
+	margin-left: 5%;
+	margin-right: 5%;
+	}
+
+h2 {
+	padding: 3%;
+	font-size: 200%;
+	}
+	
+.Elist {
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 200%;
+	}
+	
+.dates {
+	padding-top: 3%;
+	font-size: 200%;
+	}
+
+footer {
+	color: gray;
+	text-align: center;
+	padding: 2%;
+	background-color: white;
+	}
+
+/* samsung s5/iphone portrait (375px or less)*/
+@media only screen and (max-width: 375px) {
+/*styles */
+	#nav_menu {display: none; }
+	#mobile_menu {display: block; }	
+	body {
+		width: 100%;
+		margin: 0;
+		border: none;
+		}
+	.aboutpage {
+		font-size: 10px;
+		}
+	.AOB {
+		margin-left: 22%;
+		}
+    main {
+    	margin-top: 75%;
+    	font-size: 50%;
+    	}
+	}
